@@ -17,10 +17,10 @@ window.addEventListener("load", function (evt) {
     console.log(xml);
     let arrDocuments = Array.from(xml.documentElement.children);
     console.log(arrDocuments.length);
-    arrDocuments.filter(function (elem) {
+    const arrStandards = arrDocuments.filter(function (elem) {
       return (elem.getAttribute("type") === "REC");
     });
-    arrDocuments.sort(function (elem1, elem2) {
+    arrStandards.sort(function (elem1, elem2) {
       if ( elem1.getAttribute("name") < elem2.getAttribute("name") ) {
         return -1;
       } else if ( elem1.getAttribute("name") > elem2.getAttribute("name") ) {
@@ -47,7 +47,7 @@ window.addEventListener("load", function (evt) {
     tblDocuments.style.height = "100%";
     tblDocuments.style.width = "100%";
     divDocumentsContainer.appendChild(tblDocuments);
-    for (let child of arrDocuments) {
+    for (let child of arrStandards) {
       const tr = document.createElement("tr");
       const tdName = document.createElement("td");
       const a = document.createElement("a");
