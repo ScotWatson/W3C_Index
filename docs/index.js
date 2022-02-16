@@ -16,6 +16,7 @@ window.addEventListener("load", function (evt) {
     const xml = parser.parseFromString(text, "application/xml");
     console.log(xml);
     let arrDocuments = Array.from(xml.documentElement.children);
+    console.log(arrDocuments.length);
     arrDocuments.filter(function (elem) {
       return (elem.getAttribute("type") === "REC");
     });
