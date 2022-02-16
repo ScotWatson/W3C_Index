@@ -221,7 +221,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 <document name="Osage Gap Analysis" location="osge-osa-gap" date="2021-05-24" type="WD"></document>
 <document name="Ethiopic Layout Gap Analysis" location="elreq-gap" date="2021-05-24" type="WD"></document>
 <document name="Web Content Accessibility Guidelines (WCAG) 2.2" location="WCAG22" date="2021-05-21" type="WD"></document>
-<document name="Inuktitut & Cree Gap Analysis" location="cans-iu-cr-gap" date="2021-05-21" type="WD"></document>
+<document name="Inuktitut &amp; Cree Gap Analysis" location="cans-iu-cr-gap" date="2021-05-21" type="WD"></document>
 <document name="CSS Box Sizing Module Level 4" location="css-sizing-4" date="2021-05-20" type="WD"></document>
 <document name="Web Animations" location="web-animations-1" date="2021-05-18" type="WD"></document>
 <document name="Web of Things (WoT): Use Cases and Requirements" location="wot-usecases" date="2021-05-18" type="NOTE"></document>
@@ -381,7 +381,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 <document name="CSS Layout API Level 1" location="css-layout-api-1" date="2018-04-12" type="FPWD"></document>
 <document name="CSS Typed OM Level 1" location="css-typed-om-1" date="2018-04-10" type="WD"></document>
 <document name="ODRL Information Model 2.2" location="odrl-model" date="2018-02-15" type="REC"></document>
-<document name="ODRL Vocabulary & Expression 2.2" location="odrl-vocab" date="2018-02-15" type="REC"></document>
+<document name="ODRL Vocabulary &amp; Expression 2.2" location="odrl-vocab" date="2018-02-15" type="REC"></document>
 <document name="Vehicle Information Service Specification" location="vehicle-information-service" date="2018-02-13" type="CR"></document>
 <document name="HTML Media Capture" location="html-media-capture" date="2018-02-01" type="REC"></document>
 <document name="ActivityPub" location="activitypub" date="2018-01-23" type="REC"></document>
@@ -461,7 +461,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 <document name="XQuery 3.1 Requirements and Use Cases" location="xquery-31-requirements" date="2016-12-13" type="NOTE"></document>
 <document name="Geolocation API Specification 2nd Edition" location="geolocation-API" date="2016-11-08" type="REC"></document>
 <document name="Pointer Lock" location="pointerlock" date="2016-10-27" type="REC"></document>
-<document name="Spatial Data on the Web Use Cases & Requirements" location="sdw-ucr" date="2016-10-25" type="NOTE"></document>
+<document name="Spatial Data on the Web Use Cases &amp; Requirements" location="sdw-ucr" date="2016-10-25" type="NOTE"></document>
 <document name="Vibration API (Second Edition)" location="vibration" date="2016-10-18" type="REC"></document>
 <document name="Web Payments Overview 1.0" location="webpayments-overview" date="2016-10-13" type="NOTE"></document>
 <document name="Techniques for WCAG 2.0" location="WCAG20-TECHS" date="2016-10-07" type="NOTE"></document>
@@ -517,7 +517,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 <document name="XPath Data Model for SCXML" location="scxml-xpath-dm" date="2015-08-11" type="NOTE"></document>
 <document name="Linked Data Patch Format" location="ldpatch" date="2015-07-28" type="NOTE"></document>
 <document name="XML Signature Syntax and Processing Version 2.0" location="xmldsig-core2" date="2015-07-23" type="NOTE"></document>
-<document name="Additional Requirements for Bidi in HTML & CSS" location="html-bidi" date="2015-07-21" type="NOTE"></document>
+<document name="Additional Requirements for Bidi in HTML &amp; CSS" location="html-bidi" date="2015-07-21" type="NOTE"></document>
 <document name="SVG Paths" location="svg-paths" date="2015-07-09" type="FPWD"></document>
 <document name="Linked Data Platform Paging 1.0" location="ldp-paging" date="2015-06-30" type="NOTE"></document>
 <document name="Dataset Descriptions: HCLS Community Profile" location="hcls-dataset" date="2015-05-14" type="NOTE"></document>
@@ -536,7 +536,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 <document name="Linked Data Platform 1.0" location="ldp" date="2015-02-26" type="REC"></document>
 <document name="Mobile Accessibility: How WCAG 2.0 and Other W3C/WAI Guidelines Apply to Mobile" location="mobile-accessibility-mapping" date="2015-02-26" type="FPWD"></document>
 <document name="HTML5 Image Description Extension (longdesc)" location="html-longdesc" date="2015-02-26" type="REC"></document>
-<document name="Data on the Web Best Practices Use Cases & Requirements" location="dwbp-ucr" date="2015-02-24" type="NOTE"></document>
+<document name="Data on the Web Best Practices Use Cases &anp; Requirements" location="dwbp-ucr" date="2015-02-24" type="NOTE"></document>
 <document name="CSS Exclusions Module Level 1" location="css3-exclusions" date="2015-01-15" type="WD"></document>
 <document name="Cognitive Accessibility User Research" location="coga-user-research" date="2015-01-15" type="FPWD"></document>
 <document name="Compositing and Blending Level 1" location="compositing-1" date="2015-01-13" type="CR"></document>
@@ -608,7 +608,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 <document name="Page Visibility (Second Edition)" location="page-visibility" date="2013-10-29" type="REC"></document>
 <document name="Internationalization Tag Set (ITS) Version 2.0" location="its20" date="2013-10-29" type="REC"></document>
 <document name="Touch Events" location="touch-events" date="2013-10-10" type="REC"></document>
-<document name="Use Cases & Exploratory Approaches for Ruby Markup" location="ruby-use-cases" date="2013-10-08" type="NOTE"></document>
+<document name="Use Cases &amp; Exploratory Approaches for Ruby Markup" location="ruby-use-cases" date="2013-10-08" type="NOTE"></document>
 <document name="Web Cryptography API Use Cases" location="webcrypto-usecases" date="2013-09-10" type="NOTE"></document>
 <document name="Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)" location="wcag2ict" date="2013-09-05" type="NOTE"></document>
 <document name="Use Cases and Lessons for the Data Cube Vocabulary" location="vocab-data-cube-use-cases" date="2013-08-01" type="NOTE"></document>
@@ -707,7 +707,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 <document name="R2RML and Direct Mapping Test Cases" location="rdb2rdf-test-cases" date="2012-08-14" type="NOTE"></document>
 <document name="XForms 2.0: XPath expression module" location="xforms-xpath" date="2012-08-07" type="WD"></document>
 <document name="XForms 2.0" location="xforms20" date="2012-08-07" type="WD"></document>
-<document name="Registration & Discovery of Multimodal Modality Components in Multimodal Systems: Use Cases and Requirements" location="mmi-mc-discovery" date="2017-02-02" type="NOTE"></document>
+<document name="Registration &amp; Discovery of Multimodal Modality Components in Multimodal Systems: Use Cases and Requirements" location="mmi-mc-discovery" date="2017-02-02" type="NOTE"></document>
 <document name="Web Application Privacy Best Practices" location="app-privacy-bp" date="2012-07-03" type="NOTE"></document>
 <document name="Media Queries" location="css3-mediaqueries" date="2012-06-19" type="REC"></document>
 <document name="Terms for describing people" location="vocab-people" date="2012-04-05" type="WD"></document>
