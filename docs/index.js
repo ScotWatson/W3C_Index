@@ -19,7 +19,7 @@ window.addEventListener("load", function (evt) {
     arrDocuments.sort(function (elem1, elem2) {
       if ( elem1.getAttribute("name") < elem2.getAttribute("name") ) {
         return -1;
-      } else if ( elem1.getAttribute("name") < elem2.getAttribute("name") ) {
+      } else if ( elem1.getAttribute("name") > elem2.getAttribute("name") ) {
         return 1;
       } else {
         return 0;
