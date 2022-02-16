@@ -29,13 +29,37 @@ window.addEventListener("load", function (evt) {
         return 0;
       }
     });
+    const divDocumentsContainer = document.createElement("div");
+    divDocumentsContainer.style.display = "block";
+    divDocumentsContainer.style.position = "absolute";
+    divDocumentsContainer.style.left = "0px";
+    divDocumentsContainer.style.top = "100px";
+    divDocumentsContainer.style.height = "100%";
+    divDocumentsContainer.style.width = "100%";
+    divDocumentsContainer.style.overflowX = "hidden";
+    divDocumentsContainer.style.overflowY = "scroll";
+    document.body.appendChild(divDocumentsContainer);
+    const tblDocuments = document.createElement("table");
+    tblDocuments.style.display = "block";
+    tblDocuments.style.position = "absolute";
+    tblDocuments.style.left = "0px";
+    tblDocuments.style.top = "0px";
+    tblDocuments.style.height = "100%";
+    tblDocuments.style.width = "100%";
+    divDocumentsContainer.appendChild(tblDocuments);
     for (let child of arrDocuments) {
-      let p = document.createElement("p");
-      let a = document.createElement("a");
+      const tr = document.createElement("tr");
+      const tdName = document.createElement("td");
+      const a = document.createElement("a");
       a.appendChild(document.createTextNode(child.getAttribute("name")));
       a.href = "https://www.w3.org/TR/" + child.getAttribute("location");
-      p.appendChild(a);
-      document.body.appendChild(p);
+      a.target = "_blank";
+      tdName.appendChild(a);
+      tr.appendChild(tdName);
+      const tdDate = document.createElement("td");
+      tdDate.appendChild(document.createTextNode(child.getAttribute("date")));
+      tr.appendChild(tdDate);
+      tblDocuments.appendChild(tr);
     }
   });
 });
