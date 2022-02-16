@@ -4,11 +4,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 */
 
 document.addEventListener("load", function (evt) {
+  console.log("load");
   const xmlFetch = fetch("w3c.xml");
   const xmlText = xmlFetch.then(function (response) {
+    console.log("read");
     return response.text();
   });
   xmlText.then(function (text) {
+    console.log("parse");
     const parser = new DOMParser();
     const xml = parser.parseFromString(text, "application/xml");
     for (let child of xml.children) {
