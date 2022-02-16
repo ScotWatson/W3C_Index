@@ -15,7 +15,17 @@ window.addEventListener("load", function (evt) {
     const parser = new DOMParser();
     const xml = parser.parseFromString(text, "application/xml");
     console.log(xml);
-    for (let child of xml.documentElement.children) {
+    let arrDocuments = Array.from(xml.documentElement.children);
+    arrDocuments.sort(function (elem1, elem2) {
+      if ( elem1.getAttribute("name") < elem2.getAttribute("name") ) {
+        return -1;
+      } else if ( elem1.getAttribute("name") < elem2.getAttribute("name") ) {
+        return 1;
+      } else {
+        return 0;
+      }
+    });
+    for (let child of arrDocuments) {
       let p = document.createElement("p");
       let a = document.createElement("a");
       a.appendChild(document.createTextNode(child.getAttribute("name")));
