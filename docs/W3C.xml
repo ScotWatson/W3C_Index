@@ -536,7 +536,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 <document name="Linked Data Platform 1.0" location="ldp" date="2015-02-26" type="REC"></document>
 <document name="Mobile Accessibility: How WCAG 2.0 and Other W3C/WAI Guidelines Apply to Mobile" location="mobile-accessibility-mapping" date="2015-02-26" type="FPWD"></document>
 <document name="HTML5 Image Description Extension (longdesc)" location="html-longdesc" date="2015-02-26" type="REC"></document>
-<document name="Data on the Web Best Practices Use Cases &anp; Requirements" location="dwbp-ucr" date="2015-02-24" type="NOTE"></document>
+<document name="Data on the Web Best Practices Use Cases &amp; Requirements" location="dwbp-ucr" date="2015-02-24" type="NOTE"></document>
 <document name="CSS Exclusions Module Level 1" location="css3-exclusions" date="2015-01-15" type="WD"></document>
 <document name="Cognitive Accessibility User Research" location="coga-user-research" date="2015-01-15" type="FPWD"></document>
 <document name="Compositing and Blending Level 1" location="compositing-1" date="2015-01-13" type="CR"></document>
