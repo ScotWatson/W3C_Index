@@ -13,6 +13,7 @@ window.addEventListener("load", function (evt) {
   });
   xmlText.then(function (text) {
     console.log("parse");
+    console.log(text);
     const parser = new DOMParser();
     const xml = parser.parseFromString(text, "application/xml");
     for (let child of xml.children) {
