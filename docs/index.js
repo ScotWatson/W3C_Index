@@ -15,7 +15,7 @@ window.addEventListener("load", function (evt) {
     const parser = new DOMParser();
     const xml = parser.parseFromString(text, "application/xml");
     console.log(xml);
-    for (let child of xml.children) {
+    for (let child of xml.documentElement.children) {
       let p = document.createElement("p");
       let a = document.createElement("a");
       a.appendChild(document.createTextNode(child.getAttribute("name")));
