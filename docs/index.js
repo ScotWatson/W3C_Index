@@ -16,6 +16,9 @@ window.addEventListener("load", function (evt) {
     const xml = parser.parseFromString(text, "application/xml");
     console.log(xml);
     let arrDocuments = Array.from(xml.documentElement.children);
+    arrDocuments.filter(function (elem) {
+      return (elem.getAttribute("type") === "REC");
+    });
     arrDocuments.sort(function (elem1, elem2) {
       if ( elem1.getAttribute("name") < elem2.getAttribute("name") ) {
         return -1;
