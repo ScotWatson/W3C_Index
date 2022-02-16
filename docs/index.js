@@ -16,6 +16,7 @@ window.addEventListener("load", function (evt) {
     console.log(text);
     const parser = new DOMParser();
     const xml = parser.parseFromString(text, "application/xml");
+    console.log(xml);
     for (let child of xml.children) {
       let p = document.createElement("p");
       let a = document.createElement("a");
